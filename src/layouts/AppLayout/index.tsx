@@ -1,9 +1,9 @@
-import { css } from '@emotion/react';
-import { flex, height100, Stack } from '@toss/emotion-utils';
-import { BottomNavigation, TopNavigation } from './navigations';
+import { css } from '@emotion/react'
+import { flex, height100, Stack } from '@toss/emotion-utils'
+import { BottomNavigation, TopNavigation } from './navigations'
 
 interface Props {
-  children: React.ReactNode;
+  children: React.ReactNode
 }
 
 const AppLayout = ({ children }: Props) => {
@@ -29,7 +29,7 @@ const AppLayout = ({ children }: Props) => {
       </main>
       <BottomNavigation />
     </Stack.Vertical>
-  );
-};
+  )
+}
 
-export default AppLayout;
+export default AppLayout

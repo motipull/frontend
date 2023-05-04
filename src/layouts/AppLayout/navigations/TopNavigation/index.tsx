@@ -1,7 +1,7 @@
-import { css, useTheme } from '@emotion/react';
+import { css, useTheme } from '@emotion/react'
 
 const TopNavigation = () => {
-  const { dimensions } = useTheme();
+  const { dimensions } = useTheme()
   return (
     <div
       css={css`
@@ -10,7 +10,7 @@ const TopNavigation = () => {
     >
       TopNav
     </div>
-  );
-};
+  )
+}
 
-export default TopNavigation;
+export default TopNavigation

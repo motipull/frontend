@@ -1,11 +1,11 @@
-import { colors } from './colors';
-import { dimensions } from './dimensions';
+import { colors } from './colors'
+import { dimensions } from './dimensions'
 
 export const emotionTheme = {
   colors,
   dimensions,
-} as const;
+} as const
 
-export { colors, dimensions };
+export { colors, dimensions }
 
-export type EmotionTheme = typeof emotionTheme;
+export type EmotionTheme = typeof emotionTheme

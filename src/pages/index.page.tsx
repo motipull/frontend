@@ -1,8 +1,8 @@
-import { Button } from '@chakra-ui/react';
-import { useRouter } from 'next/router';
+import { Button } from '@chakra-ui/react'
+import { useRouter } from 'next/router'
 
 const Index = () => {
-  const route = useRouter();
+  const route = useRouter()
 
   return (
     <div>
@@ -11,7 +11,7 @@ const Index = () => {
         Login
       </Button>
     </div>
-  );
-};
+  )
+}
 
-export default Index;
+export default Index

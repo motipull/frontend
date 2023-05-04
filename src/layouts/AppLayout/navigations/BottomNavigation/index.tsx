@@ -1,8 +1,8 @@
-import { css } from '@emotion/react';
-import { useTheme } from '@emotion/react';
+import { css } from '@emotion/react'
+import { useTheme } from '@emotion/react'
 
 const BottomNavigation = () => {
-  const { dimensions } = useTheme();
+  const { dimensions } = useTheme()
   return (
     <div
       css={css`
@@ -11,7 +11,7 @@ const BottomNavigation = () => {
     >
       BottonNav
     </div>
-  );
-};
+  )
+}
 
-export default BottomNavigation;
+export default BottomNavigation

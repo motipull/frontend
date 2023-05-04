@@ -1,5 +1,5 @@
-import { css, Global } from '@emotion/react';
-import { height100, position } from '@toss/emotion-utils';
+import { css, Global } from '@emotion/react'
+import { height100, position } from '@toss/emotion-utils'
 
 export const GlobalCSS = () => {
   return (
@@ -81,5 +81,5 @@ export const GlobalCSS = () => {
         }
       `}
     />
-  );
-};
+  )
+}
